@@ -1,7 +1,9 @@
 FrontEnd Contest by #include Community 
 
 Team Name: Mirage 2000
-How Many people Contributed: 1
+
+How Many People Contributed: 1 
+
 Project Title: Pet Adoption Website: Design a platform for adopting pets  and list the available pets for adoption	
 
 Project Details: 
@@ -30,7 +32,7 @@ When users are ready to adopt a pet, our platform encourages them to take action
 
 Experience:
 
-In my contest project, I embarked on the exciting journey of designing a pet adoption website. To ensure the success of this endeavor, I conducted thorough research, scrutinizing various existing websites in the same domain and dissecting numerous HTML projects. This extensive exploration equipped me with a profound understanding of what elements work best and where they should be strategically placed.
+In this contest project, I embarked on the exciting journey of designing a pet adoption website. To ensure the success of this endeavor, I conducted thorough research, scrutinizing various existing websites in the same domain and dissecting numerous HTML projects. This extensive exploration equipped me with a profound understanding of what elements work best and where they should be strategically placed.
 One of the significant takeaways from this experience was mastering the art of outlining and designing boxes effectively. I learned how to strike a harmonious balance between visual elements, such as images, and how to apply shadow effects meticulously to enhance the overall aesthetics of the website. These skills are invaluable in creating an engaging and visually appealing user interface.
 Furthermore, my contest project led me to discover and experiment with new HTML commands and styles. This hands-on experience expanded my skill set and deepened my comprehension of web design principles. As a result, I was able to craft a website outline that not only looked appealing but also prioritized user-friendliness.
 In essence, this project served as a significant learning opportunity, offering valuable insights into web design. It underscored the importance of usability, visual harmony, and attention to detail, all of which will undoubtedly influence and elevate my future web design endeavors.
