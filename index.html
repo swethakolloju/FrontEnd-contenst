@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetMeetly</title>
+    <!-- <link rel="stylesheet" href="Styles.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+    <style>
+        .card {
+            width: 100%;
+            height: 100%;
+        }
+
+        .card-img-top {
+            object-fit: cover;
+            height: 300px;
+        }
+        .main-logo { 
+            height: 70px;
+        }
+        .main-logo2 { 
+            height: 70px;
+            filter: brightness(0%);
+        }   
+        .btn-purple {
+        background-color: #7e0de7;
+        color: #ffffff;
+       }
+    .btn-purple:hover {
+        background-color: #6a0cd6;
+    }  
+    .feature-box {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        height: 100%;
+    }
+
+    .feature-box h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .feature-box p {
+        font-size: 16px;
+    }
+    </style>
+
+</head>
+<body>
+    <!-- Navbar  section start-->
+    <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">
+        <img src="http://surl.li/kxqup" class="main-logo" alt="logo" >
+        <img src="http://surl.li/kyqvm" class ="main-logo2" alt="logo2" >
+    </a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Adopt a Pet</a>
+            </li>          
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+<!-- Navbar  section start-->
+
+<!-- Main Section  starts-->
+<section class="jumbotron text-center" style="background-image: url('http://surl.li/kxtbo'); background-size: cover; background-position: center; color: #ffffff;">
+    <div class="container">
+        <h1 class="display-4"><strong>Find Your Perfect Pet</strong></h1>
+        <p class="lead" style="font-weight: 500;"><strong>Discover loving pets waiting for their forever homes.</strong></p>
+        <a href="#" class="btn btn-primary"><strong>Search Pets</strong></a>
+    </div>
+</section>
+<!-- Main Section  ends-->
+
+<!-- Pet Categories starts -->
+    <section class="container my-5">
+        <h2 class="mb-4">Pet Categories</h2>
+        <div class="row">
+            <!-- Cat Category -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="http://surl.li/kxrok" class="card-img-top" alt="Cat">
+                    <div class="card-body">
+                        <h5 class="card-title">Cats</h5>
+                        <p class="card-text">Browse our adorable cats available for adoption.</p>
+                        <a href="#" class="btn btn-primary">View Cats</a>
+                    </div>
+                </div>
+            </div>            
+            <!-- Dog Category -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="http://surl.li/kxrmr" class="card-img-top" alt="Dog">
+                    <div class="card-body">
+                        <h5 class="card-title">Dogs</h5>
+                        <p class="card-text">Explore our lovable dogs in search of a forever home.</p>
+                        <a href="#" class="btn btn-primary">View Dogs</a>
+                    </div>
+                </div>
+            </div>           
+            <!-- Parrot Category -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="http://surl.li/kxhdt" class="card-img-top" alt="Parrot">
+                    <div class="card-body">
+                        <h5 class="card-title">Parrots</h5>
+                        <p class="card-text">Meet our colorful parrots waiting for a new family.</p>
+                        <a href="#" class="btn btn-primary">View Parrots</a>
+                    </div>
+                </div>
+            </div>           
+            <!-- Horse Category-->
+             <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="http://surl.li/kxrlh" class="card-img-top" alt="Horse">
+                    <div class="card-body">
+                        <h5 class="card-title">Horse</h5>
+                        <p class="card-text">The way to heaven is on horseback!</p>
+                        <a href="#" class="btn btn-primary">View Horse</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Rabbit Category-->
+             <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="http://surl.li/kyfqk" class="card-img-top" alt="Rabbit">
+                    <div class="card-body">
+                        <h5 class="card-title">Rodents</h5>
+                        <p class="card-text">Underneath every bush, you’ll find a rabbit ready to bolt.</p>
+                        <a href="#" class="btn btn-primary">View Rabbits</a>
+                    </div>
+                </div>
+            </div>
+             <!-- final One Category-->
+             <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="http://surl.li/kyfti" class="card-img-top" alt="More Animals">
+                    <div class="card-body">
+                        <p class="card-text">Want to know more about such cute Animals, Find Out</p>
+                        <a href="#" class="btn btn-primary">View More</a>
+                    </div>
+                </div>
+            </div>           
+        </div>
+    </section>
+<!-- Pet Categories ends -->
+
+<!-- Text in the middle starts -->
+<section class="container text-center my-6">
+        <h2 class="mb-4 font-weight-bold text"><strong>Help pets and people in your community</strong></h2>
+        <p class="font text">
+            The world can be a stressful place, but pets fill it with love. From a cat helping a senior feel less lonely to a dog providing emotional support for a veteran,
+             pets and people form powerful bonds. Pets are part of our families and our communities.
+        <p class="font text">
+            When people struggle, so do their pets. You can help families in your community stay together. #BeAHelper
+        </p>
+<!-- button after the text -->
+    <div class="text-center mt-4">
+        <button class="btn btn-purple btn-lg">Get Started</button>
+    </div>
+</section>
+
+<!-- boxes text Section -->
+<section class="container text-center mt-4">
+    <div class="row">
+        <!-- box1 -->
+        <div class="col-md-4 mb-4">
+            <div class="feature-box">
+                <h3 class="font-weight-bold">Wide Selection of Breeds</h3>
+                <p class="font-weight-bold text-muted">
+                    PetMeetly offers a diverse range of breeds, ensuring that you can find the appropriate match for your pet.
+                </p>
+            </div>
+        </div>
+        <!-- box 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="feature-box">
+                <h3 class="font-weight-bold">Comprehensive Pet Directory</h3>
+                <p class="font-weight-bold text-muted">
+                    PetMeetly provides a comprehensive database of breeders and pet owners, enabling you to quickly find the suitable match for your pet.
+                </p>
+            </div>
+        </div>
+        <!-- box  3 -->
+        <div class="col-md-4 mb-4">
+            <div class="feature-box">
+                <h3 class="font-weight-bold">User-Friendly Interface</h3>
+                <p class="font-weight-bold text-muted">
+                    PetMeetly is designed with a user-friendly interface, facilitating easy navigation and efficient access to relevant information.
+                </p>
+            </div>
+        </div>
+        <!-- box  4 -->
+        <div class="col-md-4 mb-4">
+            <div class="feature-box">
+                <h3 class="font-weight-bold">Advanced Search Functionality</h3>
+                <p class="font-weight-bold text-muted">
+                    PetMeetly offers advanced search functionality, allowing you to search for pets based on specific criteria such as breed, location, age, and more.
+                </p>
+            </div>
+        </div>
+        <!-- box 5 -->
+        <div class="col-md-4 mb-4">
+            <div class="feature-box">
+                <h3 class="font-weight-bold">Detailed Pet Profiles</h3>
+                <p class="font-weight-bold text-muted">
+                    PetMeetly provides detailed profiles for each pet, including information such as photos, health records, personality traits, and more, to assist you in making informed decisions when buying, adopting, or mating your pet.
+                </p>
+            </div>
+        </div>
+        <!-- box 6 -->
+        <div class="col-md-4 mb-4">
+            <div class="feature-box">
+                <h3 class="font-weight-bold">Personalized Recommendations</h3>
+                <p class="font-weight-bold text-muted">
+                    PetMeetly offers customized recommendations based on each pet’s profile, making it easier for you to find the perfect match.
+                </p>
+            </div>
+        </div>
+    </div>
+<!-- Text in the middle ends -->
+
+<!-- middle image Section  starts-->
+<section class="jumbotron text-center" style="background-image: url('http://surl.li/kygse'); background-size: cover; background-position: center; color: #ffffff;">
+    <div class="container">
+        <h1 class="display-5"><strong>Responsible Pet Ownership</strong></h1>
+        <p class="text" style="font-weight: 500;">Pet ownership is a major commitment that calls for a great deal of time, energy, and focus. It is essential to offer the correct diet, care, and attention to your pet in order for him or her to be happy and healthy.</p>
+        <p class="text" style="font-weight: 500;">We are dedicated to providing our clients with the knowledge and tools they need to be successful pet owners, whether they are looking for dogs for sale, dogs for breeding, cats for breeding, or cats for sale.</p>
+    </div>
+</section>
+<!-- middle image Section  ends-->
+
+<!-- Featured Pets section starts -->
+<section class="container my-5">
+    <h2 class="mb-4">Featured Pets</h2>
+    <div class="row">
+        <!--Listing 1 -->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="http://surl.li/kxjhz" class="card-img-top" alt="Dog 1">
+                <div class="card-body">
+                    <h5 class="card-title">Max</h5>
+                    <p class="card-text">Friendly Golden Retriever looking for a home.</p>
+                    <a href="#" class="btn btn-primary">Adopt Max</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Featured Pet Listing 2 -->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="http://surl.li/kxszl" class="card-img-top" alt="Cat 1">
+                <div class="card-body">
+                    <h5 class="card-title">Whiskers</h5>
+                    <p class="card-text">Playful cat in need of a loving home.</p>
+                    <a href="#" class="btn btn-primary">Adopt Whiskers</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Featured Pet Listing 2 -->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="http://surl.li/kyfzo" class="card-img-top" alt="Dog 2">
+                <div class="card-body">
+                    <h5 class="card-title">Kika</h5>
+                    <p class="card-text">Affectionate Dog ready to steal your heart.</p>
+                    <a href="#" class="btn btn-primary">Adopt Kika</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Featured Pet Listing 2 -->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="http://surl.li/kyinv" class="card-img-top" alt="Rabbit">
+                <div class="card-body">
+                    <h5 class="card-title">Thunder</h5>
+                    <p class="card-text">Adorable Rabbit seeking a cozy burrow</p>
+                    <a href="#" class="btn btn-primary">Adopt Thunder</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- more pets section -->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="rounded-circle" style="background-image: url('http://surl.li/kyipj'); background-size: cover; width: 100px; height: 100px; margin: 0 auto;"></div>
+            <p class="text-center mt-3">100+ more pets are available</p>
+        </div>
+    </div>
+</section>
+<!-- Featured Pets section ends -->
+
+<!-- Articles Section starts -->
+<section class="container my-5">
+    <h2 class="mb-4">Adoption Articles</h2>
+    <div class="row">
+        <!-- Article 1: Dog Adoption -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card border-0"> <!-- Add border-0 class here -->
+                <img src="http://surl.li/kxjhz" class="card-img-top rounded-circle" alt="Dog Adoption">
+                <div class="card-body">
+                    <h5 class="card-title">Adopting a Dog</h5>
+                    <p class="card-text">Learn everything you need to know about dog adoption.</p>
+                    <a href="#" class="btn btn-primary">Read Article</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Article 2: Cat Adoption -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card border-0"> <!-- Add border-0 class here -->
+                <img src="http://surl.li/kxszl" class="card-img-top rounded-circle" alt="Cat Adoption">
+                <div class="card-body">
+                    <h5 class="card-title">Adopting a Cat</h5>
+                    <p class="card-text">Discover the joys of bringing a cat into your home.</p>
+                    <a href="#" class="btn btn-primary">Read Article</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Article 3: More Animal Adoption -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card border-0"> <!-- Add border-0 class here -->
+                <img src="http://surl.li/kyiry" class="card-img-top rounded-circle" alt="Animal Adoption">
+                <div class="card-body">
+                    <h5 class="card-title">Adopting Other Animals</h5>
+                    <p class="card-text">Explore the diverse world of animal adoption beyond dogs and cats.</p>
+                    <a href="#" class="btn btn-primary">Read Article</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Articles Section ends -->
+
+<!-- Reviewssssssss starts -->
+<section class="container my-5">
+    <h2 class="mb-4 text-center">What They’re Saying</h2>
+    <div class="row">
+        <!-- Review 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card border-0 rounded-lg shadow-lg">
+                <div class="feature-box">
+                    <p class="font-weight-bold text-muted">Thank you PetMeetly.<br>We found Browni for our daughter, and it was Love at first sight. They had a good time together, and we are now waiting for the pups.</p>
+                    <p class="font-weight-bold text-muted">Esha C.<br>Hyderabd, Telangana, India</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Review 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card border-0 rounded-lg shadow-lg">
+                <div class="feature-box">
+                    <p class="font-weight-bold text-muted">PetMeetly, You are just awesome.<br>I was a bit pessimistic to start with as I have tried a couple of other websites without any success. But after my first conversation here with a pet owner, I got excited to see that this is real. We could not be happier with our new family members.</p>
+                    <p class="font-weight-bold text-muted">Sathya S.<br>Banglore, karanatka, India</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Review 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card border-0 rounded-lg shadow-lg">
+                <div class="feature-box">
+                    <p class="font-weight-bold text-muted">PetMeetly is the best.<br>Unlike so many match finders out there, these guys are not scammers. They connect with real people and real dog profiles with real photos.</p>
+                    <p class="font-weight-bold text-muted">Vignesh N<br>Vishakapatnam, Andhara Pradesh, India</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Reviewssssssss ends -->
+
+
+<!-- Inbetween image section starts-->
+<section class="jumbotron text-center" style="background-image: url('http://surl.li/kykdm'); background-size: cover; background-position: center; color: #070707;">
+    <div class="container">
+        <h1 class="display-4"><strong>Your Pet Needs Your Help!</strong></h1>
+        <p class="lead" style="font-weight: 450;">Yes, Please help them register their profile and talk to other humans.</p>
+        <a href="#" class="btn btn-primary"><strong>Register</strong></a>
+    </div>
+</section>
+<!-- Inbetween image section ends->
+
+<!-- informative articles starts -->
+<section class="container my-5">
+    <h2 class="mb-4 text-center">You might be interested to know</h2>
+    <div class="row">
+        <!-- Article 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card border-0">
+                <img src="http://surl.li/kyjcz" class="card-img-top" alt="Article 1">
+                <div class="card-body">
+                    <h5 class="card-title">Managing Your Dog’s Separation Anxiety</h5>
+                    <p class="card-text">As a loving dog owner, my heart would always skip a beat as I approached my front door after a day...</p>
+                    <p class="text-danger">Read More</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Article 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card border-0">
+                <img src="http://surl.li/kyjdh" class="card-img-top" alt="Article 2">
+                <div class="card-body">
+                    <h5 class="card-title">A Comprehensive Guide to Curb Your Dog’s Digging Habit</h5>
+                    <p class="card-text">Raise your hand if this sounds familiar: You've spent the entire Saturday tending to your garden...</p>
+                    <p class="text-danger">Read More</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Article 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card border-0">
+                <img src="http://surl.li/kyjdk" class="card-img-top" alt="Article 3">
+                <div class="card-body">
+                    <h5 class="card-title">Taming Your Dog’s Excessive Barking</h5>
+                    <p class="card-text">We've all been there: the clock ticks over to midnight, the house is enveloped in that blissful...</p>
+                    <p class="text-danger">Read More</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- informative articles  ends-->
+
+<!-- Book a call session starts-->
+    <section style="text-align: center;">
+        <h1 class="card-title">Ready to adopt a pet? Why late?</h1>
+        <a href="#" class="btn btn-warning mt-2">Book a Call</a>
+        <div class="side-by-side-images">
+            <img src="http://surl.li/kyslg" alt="Image 2" style="max-height: 200px;"> 
+        </div>
+    </section>
+<!-- Book a call session ends -->
+
+<!-- footer  section starts-->
+<footer class="bg-dark text-light text-center py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h6>Quick Links</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h6>ADOPT OR GET INVOLVED</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#">All Adopt or Get Involved</a></li>
+                    <li><a href="#">Adopting Pets</a></li>
+                    <li><a href="#">Animal Shelters & Rescues</a></li>
+                    <li><a href="#">Other Types of Pets</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h6>Policy</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Cancellation Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h6>Search By Location</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#">Hyderabd</a></li>
+                    <li><a href="#">Banglore</a></li>
+                    <li><a href="#">Chennai</a></li>
+                    <li><a href="#">Delhi</a></li>
+                    <li><a href="#">Mumbai</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <p class="text-black">To get the latest on pet adoption and pet care, sign up for the PetMeetly newsletter.</p>
+                    <button class="btn btn-primary btn-sm">SIGN UP</button>
+                    <div class="social-icons mt-2">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</footer>
+<!-- footer  section ends-->
+
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
